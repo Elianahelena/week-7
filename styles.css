@@ -1,0 +1,53 @@
+body {
+    background-color:cornflowerblue;
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+}
+
+h2 {
+    color:rgb(183, 58, 5);
+}
+
+.main {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    background-color: lightblue;
+    padding: 2rem;
+    text-align: center;
+}
+
+div {
+    background-color:lightblue;
+    border-style:dotted;
+    border-color:black;
+    border-radius: 5px;
+}
+
+img {
+    border: 5px solid coral;
+  }
+
+  .places p {
+    overflow: auto;
+}
+
+form {
+    background-color:rgb(227, 138, 13);
+    border-style:dashed;
+    border-color:rgb(53, 152, 223);
+    border-radius: 5px;
+}
+
+.main a:hover {
+    background-color: rgb(19, 109, 234);
+    color: black;
+  }
+  
+  
+  .main a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
